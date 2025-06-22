@@ -1,0 +1,63 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+.env.*
+
+# === Package distribution ===
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# === Logs and cache ===
+*.log
+.cache/
+.tox/
+.nox/
+pytestdebug.log
+
+# === Coverage reports ===
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.py,cover
+coverage.xml
+
+# === Static analysis ===
+.mypy_cache/
+.pytype/
+.dmypy.json
+.pyre/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Streamlit ===
+.streamlit/
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Hugging Face cache ===
+~/.cache/huggingface/
+
+# === ChromaDB data ===
+data/chromadb/
